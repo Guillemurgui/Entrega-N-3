@@ -1,0 +1,102 @@
+$primary-color: #007bff;
+$secondary-color: #343a40;
+$text-light: #ffffff;
+$text-dark: #212529;
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #243749;
+}
+$primary-color: #007bff;
+$secondary-color: #343a40;
+$text-light: #ffffff;
+$text-dark: #212529;
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: $secondary-color;
+    color: $text-light;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.navbar {
+    background-color: lighten($secondary-color, 10%);
+    .nav-link {
+        color: $text-dark;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+main {
+    .btn-primary {
+        background-color: $primary-color;
+        border: none;
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+    
+    .img-fluid {
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+footer {
+    background-color: $secondary-color;
+    color: $text-light;
+    text-align: center;
+    padding: 1rem;
+}
+
+header {
+    background-color: $secondary-color;
+    color: $text-light;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.navbar {
+    background-color: lighten($secondary-color, 10%);
+    .nav-link {
+        color: $text-dark;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+main {
+    .btn-primary {
+        background-color: $primary-color;
+        border: none;
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+    
+    .img-fluid {
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+footer {
+    background-color: $secondary-color;
+    color: $text-light;
+    text-align: center;
+    padding: 1rem;
+}
