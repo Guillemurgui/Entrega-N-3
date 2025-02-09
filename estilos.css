@@ -5,7 +5,7 @@ body {
 
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 header {
@@ -40,13 +40,6 @@ main .img-fluid:hover {
   transform: scale(1.05);
 }
 
-footer {
-  background-color: #343a40;
-  color: #ffffff;
-  text-align: center;
-  padding: 1rem;
-}
-
 header {
   background-color: #343a40;
   color: #ffffff;
@@ -78,12 +71,23 @@ main .img-fluid {
 main .img-fluid:hover {
   transform: scale(1.05);
 }
-
 footer {
-  background-color: #343a40;
-  color: #ffffff;
+    
   text-align: center;
-  padding: 1rem;
+  padding: 15px 0;
+  background-color: #343a40;
+  color: #000000;
+  font-size: 15px;
 }
-
+footer p {
+  margin-bottom: 15px;
+}
+.redes a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+.redes a:hover{
+  color: #030303;
+}
 /* # sourceMappingURL=estilos.css.map  */

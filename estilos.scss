@@ -14,7 +14,42 @@ $text-dark: #212529;
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: $secondary-color;
+    color: $text-light;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.navbar {
+    background-color: lighten($secondary-color, 10%);
+    .nav-link {
+        color: $text-dark;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+main {
+    .btn-primary {
+        background-color: $primary-color;
+        border: none;
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+    
+    .img-fluid {
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
 }
 
 header {
@@ -53,50 +88,21 @@ main {
 }
 
 footer {
-    background-color: $secondary-color;
-    color: $text-light;
-    text-align: center;
-    padding: 1rem;
-}
-
-header {
-    background-color: $secondary-color;
-    color: $text-light;
-    text-align: center;
-    padding: 1.5rem;
-}
-
-.navbar {
-    background-color: lighten($secondary-color, 10%);
-    .nav-link {
-        color: $text-dark;
-        &:hover {
-            color: $primary-color;
-        }
-    }
-}
-
-main {
-    .btn-primary {
-        background-color: $primary-color;
-        border: none;
-        &:hover {
-            background-color: darken($primary-color, 10%);
-        }
-    }
     
-    .img-fluid {
-        border-radius: 10px;
-        transition: transform 0.3s ease-in-out;
-        &:hover {
-            transform: scale(1.05);
-        }
-    }
-}
-
-footer {
-    background-color: $secondary-color;
-    color: $text-light;
     text-align: center;
-    padding: 1rem;
+    padding: 15px 0;
+    background-color: #343a40;
+    color: #000000;
+    font-size: 15px;
+}
+footer p {
+    margin-bottom: 15px;
+}
+.redes a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+.redes a:hover{
+    color: #030303;
 }
